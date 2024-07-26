@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" id="frutas">Frutas</a></li>
+            <li><a href="#" id="panaderia">Panadería</a></li>
+            <li><a href="#" id="lacteos">Lácteos</a></li>
+        </ul>
+    </nav>
+    <div class="app-container">
+        <h1>Lista de Compras</h1>
+        <div class="list-container">
+            <div class="items" id="articulos"></div>
+            <div class="cart" id="carrito">
+                <h2>Carrito (<span id="cantidad-carrito">0</span>)</h2>
+                <p>Arrastra los elementos aquí</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="eliminar">Eliminar</button>
+            <button id="ordenar">Ordenar</button>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
